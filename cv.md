@@ -4,11 +4,11 @@
 
 2. **Сontact with me:**
 - [telegram](https://t.me/moooooooorka)
-- [e-mail](anton.nov123@gmail.com)
+- e-mail: anton.nov123@gmail.com
 - discord nickname at rsschool server: ontosheg (@AntonNov)
 3. **About me:**
 
-Hello, I'm **Anton Novikov**. I'm 21 years old. From my point of view, money is important, but mental health is important more, that's why my goal is to find the job, collective, atmosphere, that I will really enjoy. My strong suit is perseverance. I haven't worked at all. I have joined this course, because I want to find the way out of the stupor in which I'm to this days, I want to understand does it make sense to continue my way at development sphere?
+Hello, I'm **Anton Novikov**. I'm 21 years old. From my point of view, money is important, but mental health is important more, that's why my goal is to find the job, collective, atmosphere, that I will really enjoy. My strong suit is perseverance. I haven't worked at all. I have joined this course, because I want to find the way out of the stupor in which I'm to this days, I want to understand does it makes sense to continue my way at development sphere?
 
 4. **My skills:**
 * `Git` 
