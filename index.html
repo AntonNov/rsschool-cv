@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My cv</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>My cv</h1>
+  </header>
+  <main>
+    <div class="col-6">
+      <h2>Novikov Anton</h2>
+      <div class="my_container">
+        <img class="my_photo"
+          src="https://avatars.githubusercontent.com/u/56130014?s=400&u=389bf44a9a9ad2fed046025d6cca239b761e6d85&v=4"
+          alt="My photo">
+      </div>
+      <h2>Сontact with me:</h2>
+      <ul>
+        <li>
+          <a href="https://t.me/moooooooorka" target="_blank">telegram</a>
+        </li>
+        <li>e-mail: anton.nov123@gmail.com </li>
+        <li>
+          discord nickname at rsschool server: ontosheg (@AntonNov)
+        </li>
+      </ul>
+      <h2>About me:</h2>
+      <p>Hello, I'm <b>Anton Novikov</b>. I'm 21 years old. From my point of view, money is important, but
+        mental
+        health is
+        important more, that's why my goal is to find the job, collective, atmosphere, that I will really enjoy. My
+        strong
+        suit is perseverance.
+      </p>
+      <p>I haven't worked at all. I have joined this course, because I want to find the way out of
+        the
+        stupor in which I'm to this days, I want to understand does it makes sense to continue my way at development
+        sphere?</p>
+      <h2>Solution of <a href="https://www.codewars.com/kata/can-you-get-the-loop" target="_blank">Can you get the
+          loop
+          ?</a> kata from
+        <a href="https://www.codewars.com/ " target="_blank">Codewars</a> by python as code example:
+      </h2>
+      <pre>
+        <strong>def</strong> loop_size(node):
+          turtle = hare = node
+          hare = hare.next.next
+          turtle = turtle.next
+          <strong>while</strong> hare != turtle:
+              hare = hare.next.next
+              turtle = turtle.next
+          hare = hare.next.next  
+          turtle = turtle.next
+          cnt = 1
+          <strong>while</strong> hare != turtle:
+              turtle = turtle.next
+              hare = hare.next.next
+              cnt += 1
+          <strong>return</strong> cnt 
+        </pre>
+      <h2>My projects according my skills:</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/AntonNov/ISP-2022-053502" target="_blank">Work with git, docker, python within
+            Programming tools labworks at Belarusian State University of Informatics & Radioelectronics</a>
+        </li>
+        <li>
+          <a href="https://github.com/AntonNov/Final_Project" target="_blank">Task manager project within Python/Django
+            course at TeachMeSkills</a>
+        </li>
+        <li>
+          <a href="https://github.com/AntonNov/Data_models_and_database_management_systems" target="_blank">Work with
+            PostgreSQL within Data Models and Database management system labworks at Belarusian State University of
+            Informatics & Radioelectronics</a>
+        </li>
+        <li>
+          <a href="https://github.com/AntonNov/Course_project" target="_blank">Unfinished project within Flutter course
+            at
+            TeachMeSkills</a>
+        </li>
+      </ul>
+      <h2>Education:</h2>
+      <ul>
+        <li>
+          two completely finished courses at Computer Science && Engineering
+        </li>
+        <li>
+          finished Python/Django course
+        </li>
+      </ul>
+      <h2>English B1 (Native Russian)</h2>
+    </div>
+  </main>
+  <footer>
+    <div class="col-6">
+      <div class="row">
+        <div class="container">
+          <a href="https://github.com/AntonNov" target="_blank"><img src="images/github-mark.png" height="150"
+              alt="github_logo">
+          </a>
+          <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg"
+              height="150" class="rs_logo" alt="rs_logo">
+          </a>
+        </div>
+      </div>
+      <h3>© 2023 Novikov Anton</h3>
+    </div>
+  </footer>
+</body>
+
+</html>
